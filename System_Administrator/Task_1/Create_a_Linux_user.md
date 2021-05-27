@@ -24,3 +24,12 @@ An interactive shell interacts with the user. If it's a login shell, any command
 A non-interactive shell does not interact with the user but works a shell script. Whenever you invoke a shell script, the very first line (the "shebang" #!/bin/bash) spawns a non-interactive subshell. All non-interactive shells are no login shells, thus they do not evaluate .login.
 
 Any shell a user can log into is per definition an interactive shell. If it wasn't (like /bin/false or /bin/nologin) the user couldn't log in.
+
+
+```shell
+
+# To check if the username is present
+
+> $ sudo cat /etc/passwd |grep ravi
+ 
+```
