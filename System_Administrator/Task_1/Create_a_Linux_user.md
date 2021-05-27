@@ -15,8 +15,8 @@
 # Create a user ravi with a non interactive Shell
 
 > $ sudo useradd ravi -s /sbin/nologin
-```
 
+```
 #### Note : An interactive and non-interactive shell
 
 An interactive shell interacts with the user. If it's a login shell, any commands in ~/.login are executed, if it's not a login shell (you can spawn interactive subshells) .login is not evaluated.
