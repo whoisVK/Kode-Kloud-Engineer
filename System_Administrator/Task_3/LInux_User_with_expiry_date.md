@@ -6,13 +6,13 @@
 ```powershell
 # Create a user with an expiry date 
 
-> $ sudo useradd -e 2021-12-07 mark
+> $ sudo useradd -e 2021-12-07 kirsty
 
 ```
 
 ``` shell
 # Check if the expiry date is added to the username 
 
-> $ sudo chage -l mark
+> $ sudo chage -l kirsty
 
 ```
